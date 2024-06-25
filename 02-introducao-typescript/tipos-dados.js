@@ -13,4 +13,19 @@ console.log(typeof altura);
 let ativo = true; // boolean
 ativo = false; 
 
-console.log(typeof ativo); 
+// console.log(typeof ativo); 
+
+
+let cor = 'Azul';
+console.log(typeof cor);
+
+cor = null; // tipo null ou object
+
+console.log(typeof cor);
+
+let sobrenome; // undefined
+
+console.log(typeof sobrenome);
+
+sobrenome = 'Cerqueira';
+console.log(typeof sobrenome);
