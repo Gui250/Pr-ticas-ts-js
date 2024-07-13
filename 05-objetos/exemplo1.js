@@ -11,4 +11,4 @@ usuario.nome = 'Guido Cerqueira';
 
 usuario.email = 'guido@email.com';
 
-console.log(usuario);
+console.log(`Meu nome é ${usuario.nome} e tenho ${usuario.idade} anos`);
