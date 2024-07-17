@@ -1,10 +1,13 @@
-
-const carro: {
+type TCarros = {
     modelo: string, 
     marca: string,
     ano: number, 
-    cor: string
-} = { 
+    // Cor opcional
+    cor?: string
+} 
+
+
+const carro: TCarros  = { 
     modelo: 'Pálio',
     marca: 'Fiat',
     ano: 2000,
