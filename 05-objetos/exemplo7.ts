@@ -18,3 +18,7 @@ console.log(novoObjeto);
 // Trazendo apenas Pedro e Ana
 console.log(resto);
 // spread -> espalhamento
+const carros = ['Pálio', 'Gol'];
+const novosCarros = [...carros, 'Ferrari', 'Fusca'];
+
+console.log(novosCarros);
