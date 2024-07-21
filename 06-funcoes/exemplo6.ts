@@ -1,5 +1,19 @@
 
-const pessoa = { 
+type TPessoa = { 
+    nome: string, 
+    sobrenome: string, 
+    // Dizendo que nomeCompleto é uma função e retorna uma string
+    nomeCompleto: () => void
+}
+
+
+type TPessoa2 = { 
+    nome: string, 
+    sobrenome: string,
+    nomeCompleto: (idade:number) => void
+}
+
+const pessoa: TPessoa = { 
     nome: 'Guido',
     sobrenome: 'Cerqueira',
     nomeCompleto: function() { 
@@ -8,7 +22,7 @@ const pessoa = {
 
 }
 
-const pessoa2 = { 
+const pessoa2: TPessoa2 = { 
     nome: 'João', 
     sobrenome: 'Cerqueira', 
     nomeCompleto: function(idade: number) { 
