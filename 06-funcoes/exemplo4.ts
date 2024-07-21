@@ -1,3 +1,4 @@
+
 function soma(numero1: number, numero2: number) { 
     return numero1 + numero2; 
 }
@@ -15,5 +16,6 @@ function nomeCompleto(nome: string, sobrenome: string): string {
     return `${nome} ${sobrenome}`
 }
 
+console.log(nomeCompleto('Guido', 'Cerqueira'))
 
 console.log(soma(200, 200));
