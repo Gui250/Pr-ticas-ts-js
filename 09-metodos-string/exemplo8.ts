@@ -15,3 +15,9 @@ console.log(textoFormatado);
 const textoFormatado2 = texto.padEnd(10, '-');
 
 console.log(textoFormatado2);
+
+
+const finalCartao = '1234 5678 9899 1234';
+
+const numeroFortado = finalCartao.slice(-4).padStart(12, '*');
+console.log(numeroFortado);
