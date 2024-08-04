@@ -32,3 +32,17 @@ numeros2.sort(function(item1, item2) {
 })
 
 console.log(numeros2); 
+
+const numeros3 = [5, 2, 40, 21, 1, 300, 3, 4 ,2]; 
+
+// ordenação crescente
+numeros3.sort((item1, item2) => { 
+    return item1 - item2; 
+})
+
+
+console.log(numeros3);
+const numeros4 = [5, 2, 40, 21, 1, 300, 3, 4 ,2]; 
+numeros4.sort((item1, item2) => { 
+    return item1 - item2; 
+})
