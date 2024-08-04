@@ -16,3 +16,19 @@ numeros.sort(function(item1, item2) {
 });
 
 console.log(numeros); 
+
+const numeros2 = [5, 2, 40, 21, 1, 300, 3, 4 ,2]; 
+
+// ordenação decrescente
+numeros2.sort(function(item1, item2) { 
+    if(item1 < item2) { 
+        return 1; 
+    }
+    if(item1 > item2) { 
+        return -1; 
+    }
+
+    return 0;
+})
+
+console.log(numeros2); 
