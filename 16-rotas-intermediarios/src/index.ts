@@ -1,10 +1,10 @@
 import 'dotenv/config';
-import express from 'express'
+import express, { Request, Response } from "express";
 
 const app = express(); 
 
-app.get('/', (req, res) => {
-    return res.send('Servidor está ok!');
+app.get('/', (req: Request, res: Response) => {
+        return res.send('Servidor está ok!');
 })
 
 app.listen(process.env.PORT); 
