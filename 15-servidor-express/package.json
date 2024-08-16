@@ -1,19 +1,16 @@
 {
-  "name": "14-servidor",
+  "name": "15-servidor-express",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "build": "tsc",
-    "dev": "node dist/servidor.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "fastify": "^4.28.1"
-  },
-  "devDependencies": {
-    "typescript": "^5.5.4"
+    "express": "^4.19.2"
   }
 }
